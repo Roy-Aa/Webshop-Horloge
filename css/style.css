@@ -17,7 +17,7 @@ main{
     font-family: 'Roboto', sans-serif;
 }
 
-main img{
+.frontimage{
     width: 100%;
     height: 50rem;
 }
@@ -81,21 +81,18 @@ img{
 
 .text-image{
     position: absolute;
-    top: 42rem;
+    top: 37rem;
     left: 2rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-    font-size: larger;
+    font-weight: 400;
+    font-size: 2rem;
     border-radius: 1rem;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .button-image{
     position: absolute;
-    top: 44rem;
+    top: 45rem;
     left: 2rem;
     font-size: larger;
     border-radius: 1.5rem;
@@ -105,6 +102,7 @@ img{
     width: 10rem;
     height: 3rem;
     background: white;
+    border: 1px solid black;
 }
 
 footer{
@@ -166,6 +164,10 @@ a:visited{
     align-items: center;
     gap: .5rem;
 }
+
+
+
+
 
 .maincard{
     width: 75%;
@@ -239,11 +241,10 @@ a:visited{
 .groteheading{
     width: 100%;
     height: 50rem;
-    background: red;
+    display: flex;
 }
 
 .ghfotoframe{
-    background: green;
     width: 50%;
     height: 100%;
     display: flex;
@@ -257,7 +258,183 @@ a:visited{
     background: yellow;
 }
 
+.ghframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .photo1{
+    width: 80%;
+    height: 100%;
+    box-shadow: 1px 1px 111px black;
+    border-radius: 3%;
+}
+
+.ghtextframe{
+    width: 50%;
+    height: 100%;
+}
+
+.ghtextbox{
+    width: 100%;
+    height: 5rem;
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.ghtextbox2{
+    width: 80%;
+    height: 15rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.ghbuttonbox{
+    width: 100%;
+    height: 10rem;
+    position: relative;
+}
+
+.ghbutton{
+    position: absolute;
+    bottom: 0;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    width: 10rem;
+    height: 3rem;
+    background: white;
+    border: 1px solid black;
+}
+
+
+
+
+
+.vierfotos{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.foto1{
+    width: 25rem;
+    height: 30rem;
+    background: #eee;
+    box-shadow: 1px 1px 40px black;
+    border-radius: 1.5rem;
+}
+
+.foto2{
+    width: 25rem;
+    height: 30rem;
+    background: #eee;
+    box-shadow: 1px 1px 40px black;
+    border-radius: 1.5rem;
+}
+
+.foto3{
+    width: 25rem;
+    height: 30rem;
+    background: #eee;
+    box-shadow: 1px 1px 40px black;
+    border-radius: 1.5rem;
+}
+
+.foto4{
+    width: 25rem;
+    height: 30rem;
+    background: #eee;
+    box-shadow: 1px 1px 40px black;
+    border-radius: 1.5rem;
+}
+
+.foto1 img{
     width: 100%;
     height: 100%;
+    border-radius: 1.5rem;
+}
+
+.foto2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.foto3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.foto4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+
+.vierblokken{
+    width: 100%;
+    height: 50rem;
+}
+
+.blokdeel1{
+    width: 93%;
+    height: 25rem;
+    display: flex;
+    background: #eee;
+    border-radius: 50px;
+    margin: 4rem;
+    box-shadow: 1px 1px 30px black;
+}
+
+.blokdeel-1{
+    width: 25%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blokdeel-2{
+    width: 25%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blokdeel-3{
+    width: 25%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blokdeel-4{
+    width: 25%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blokimage{
+    width: 40%;
+    height: 45%;
 }
