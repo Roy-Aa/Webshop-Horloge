@@ -238,10 +238,23 @@ a:visited{
     grid-column: 4;
 }
 
+
+
+
 .groteheading{
     width: 100%;
     height: 50rem;
     display: flex;
+    position: relative;
+}
+
+.feattext{
+    position: absolute;
+    bottom: 0;
+    left: 7rem;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
 }
 
 .ghfotoframe{
@@ -255,7 +268,6 @@ a:visited{
 .ghframefoto{
     width: 40rem;
     height: 40rem;
-    background: yellow;
 }
 
 .ghframe{
@@ -316,86 +328,77 @@ a:visited{
 
 
 
-
-
 .vierfotos{
     width: 100%;
     height: 30rem;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .foto1{
-    width: 25rem;
+    margin-top: 1.5rem;
+    width: 27rem;
     height: 30rem;
-    background: #eee;
-    box-shadow: 1px 1px 40px black;
-    border-radius: 1.5rem;
+    background: rgba(239,239,239,255);
 }
 
 .foto2{
-    width: 25rem;
+    margin-top: 1.5rem;
+    width: 27rem;
     height: 30rem;
     background: #eee;
-    box-shadow: 1px 1px 40px black;
-    border-radius: 1.5rem;
 }
 
 .foto3{
-    width: 25rem;
+    margin-top: 1.5rem;
+    width: 27rem;
     height: 30rem;
     background: #eee;
-    box-shadow: 1px 1px 40px black;
-    border-radius: 1.5rem;
 }
 
 .foto4{
-    width: 25rem;
+    margin-top: 1.5rem;
+    width: 27rem;
     height: 30rem;
     background: #eee;
-    box-shadow: 1px 1px 40px black;
-    border-radius: 1.5rem;
 }
 
 .foto1 img{
     width: 100%;
     height: 100%;
-    border-radius: 1.5rem;
 }
 
 .foto2 img{
     width: 100%;
     height: 100%;
-    border-radius: 1.5rem;
 }
 
 .foto3 img{
     width: 100%;
     height: 100%;
-    border-radius: 1.5rem;
 }
 
 .foto4 img{
     width: 100%;
     height: 100%;
-    border-radius: 1.5rem;
 }
+
 
 
 .vierblokken{
     width: 100%;
-    height: 50rem;
+    height: 33rem;
 }
 
 .blokdeel1{
     width: 93%;
     height: 25rem;
     display: flex;
-    background: #eee;
-    border-radius: 50px;
     margin: 4rem;
-    box-shadow: 1px 1px 30px black;
+    gap: 1rem;
+    margin-top: 10rem;
+    margin-left: 4.4rem;
 }
 
 .blokdeel-1{
@@ -405,6 +408,7 @@ a:visited{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #eee;
 }
 
 .blokdeel-2{
@@ -414,6 +418,7 @@ a:visited{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #eee;
 }
 
 .blokdeel-3{
@@ -423,6 +428,7 @@ a:visited{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #eee;
 }
 
 .blokdeel-4{
@@ -432,9 +438,40 @@ a:visited{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #eee;
 }
 
 .blokimage{
     width: 40%;
     height: 45%;
+}  
+
+
+
+
+.gafefunctie{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gafefunctie--blokken{
+    height: 100%;
+    width: 55rem;
+    background: blue;
+}
+
+.gafefunctie--blokken2{
+    height: 100%;
+    width: 55rem;
+    background: blue;
+    justify-content: center;
+    align-items: center
+}
+
+.gafefunctieimage{
+    width: ;
 }
