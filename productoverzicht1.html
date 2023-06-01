@@ -26,44 +26,51 @@
     </header>
     <main>
         <article class="catogorie">
-            <figure class="catogorie1"><input class="checkbox" type="checkbox">Catogorie 1</figure>
-            <figure class="catogorie2"><input class="checkbox" type="checkbox">Catogorie 2</figure>
-            <figure class="catogorie3"><input class="checkbox" type="checkbox">Catogorie 3</figure>
-        </article>
+            <div>
+                <figure class="catogorie1"><input id="checkbox-gold" class="filter" type="checkbox">Goud</figure>
+            </div>
+            <div>
+                <figure class="catogorie2"><input id="checkbox-silver" class="filter" type="checkbox">Silver</figure>
+            </div>
+            <div>
+                <figure class="catogorie3"><input id="checkbox-leather" class="filter" type="checkbox">Leer</figure>
+            </div>
+            </article>
         <article class="maincard">
-                <figure class="card card1">
+                <figure data-category="gold" class="card card1">
                     <div class="boxsmall"></div>
                     <div class="boxlarge"></div>
                 </figure>
-                <figure class="card card2">
+                <figure data-category="gold" class="card card2">
                     <div class="boxsmall"></div>
                     <div class="boxlarge"></div>
                 </figure>
-                <figure class="card card3">
+                <figure data-category="gold" class="card card3">
                     <div class="boxsmall"></div>
                     <div class="boxlarge"></div>
                 </figure>
-                <figure class="card card4">
+                <figure data-category="silver" class="card card4">
                     <div class="boxsmall"></div>
                     <div class="boxlarge"></div>    
                 </figure>
-                <figure class="card card5">
+                <figure data-category="silver" class="card card5">
                     <div class="boxsmall"></div>
                     <div class="boxlarge"></div>
                 </figure>
-                <figure class="card card6">
+                <figure data-category="silver" class="card card6">
                     <div class="boxsmall"></div>
                     <div class="boxlarge"></div>
                 </figure>
-                <figure class="card card7">
+                <figure data-category="leather" class="card card7">
                     <div class="boxsmall"></div>
                     <div class="boxlarge"></div>
                 </figure>
-                <figure class="card card8">
+                <figure data-category="leather" class="card card8">
                     <div class="boxsmall"></div>
                     <div class="boxlarge"></div>
                 </figure>
         </article>
+        <footer></footer>
     </main>
 </body>
 </html>

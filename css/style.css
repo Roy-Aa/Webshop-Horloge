@@ -120,127 +120,6 @@ a:visited{
     color: black;
 }
 
-
-
-
-
-.catogorie{
-    width: 30rem;
-    height: 30rem;
-    margin-top: 5rem;
-}
-
-.catogorie.checkbox{
-    width: 1px;
-    height: 1px;
-}
-
-.catogorie1{
-    background: yellow;
-    width: 100%;
-    height: 8.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-}
-
-.catogorie2{
-    background: green;
-    width: 100%;
-    height: 8.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-}
-
-.catogorie3{
-    background: blue;
-    width: 100%;
-    height: 8.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-}
-
-
-
-
-
-.maincard{
-    width: 75%;
-    height: 60rem;  
-    margin-left: 15rem;
-    display: grid;
-    grid-template-rows: repeat(2,1fr);
-    grid-template-columns: repeat(4,1fr);
-}
-
-.card{
-    height: 25rem;
-    width: 20rem;
-    border: 1px solid lightgray;
-    margin-top: 3.5rem;
-    margin-left: 1.2rem;
-}
-
-.boxsmall{
-    background: red;
-    width: 100%;
-    height: 10rem;
-}
-
-.boxlarge{
-    background: green;
-    width: 100%;
-    height: 15rem;
-}
-
-.card1{
-    grid-row: 1;
-    grid-column: 1;
-}
-
-.card2{
-    grid-row: 1;
-    grid-column: 2;
-}
-
-.card3{
-    grid-row: 1;
-    grid-column: 3;
-}
-
-.card4{
-    grid-row: 1;
-    grid-column: 4;
-}
-
-.card5{
-    grid-row: 2;
-    grid-column: 1;
-}
-
-.card6{
-    grid-row: 2;
-    grid-column: 2;
-}
-
-.card7{
-    grid-row: 2;
-    grid-column: 3;
-}
-
-.card8{
-    grid-row: 2;
-    grid-column: 4;
-}
-
-
-
-
 .groteheading{
     width: 100%;
     height: 50rem;
@@ -340,51 +219,65 @@ a:visited{
     margin-top: 1.5rem;
     width: 27rem;
     height: 30rem;
-    background: rgba(239,239,239,255);
 }
 
 .foto2{
     margin-top: 1.5rem;
     width: 27rem;
     height: 30rem;
-    background: #eee;
 }
 
 .foto3{
     margin-top: 1.5rem;
     width: 27rem;
     height: 30rem;
-    background: #eee;
 }
 
 .foto4{
     margin-top: 1.5rem;
     width: 27rem;
     height: 30rem;
-    background: #eee;
 }
 
 .foto1 img{
-    width: 100%;
+    width: 90%;
     height: 100%;
+    transition:0.3s transform;
 }
 
 .foto2 img{
-    width: 100%;
+    width: 90%;
     height: 100%;
+    transition:0.3s transform;
 }
 
 .foto3 img{
-    width: 100%;
+    width: 90%;
     height: 100%;
+    transition:0.3s transform;
 }
 
 .foto4 img{
-    width: 100%;
+    width: 90%;
     height: 100%;
+    transition:0.3s transform;
 }
 
+.foto1 img:hover{
+    transform:scale(1.09);
+}
 
+.foto2 img:hover{
+    transform:scale(1.09);
+}
+
+.foto3 img:hover{
+    transform:scale(1.09);
+}
+
+.foto4 img:hover{
+    transform:scale(1.09);
+}
 
 .vierblokken{
     width: 100%;
@@ -456,22 +349,157 @@ a:visited{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 5rem;
 }
 
 .gafefunctie--blokken{
     height: 100%;
     width: 55rem;
-    background: blue;
+    background: #eee;
+    padding: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .gafefunctie--blokken2{
     height: 100%;
     width: 55rem;
-    background: blue;
+    background: #eee;
+    display: flex;
     justify-content: center;
     align-items: center
 }
 
 .gafefunctieimage{
-    width: ;
+    width: 60%;
+    height: 90%;
 }
+
+.reviews{
+    width: 92.6%;
+    height: 50%;
+    background: #eee;
+    margin-left: 4.5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+.catogorie{
+    width: 30rem;
+    height: 30rem;
+    margin-top: 5rem;
+}
+
+.catogorie.checkbox{
+    width: 1px;
+    height: 1px;
+}
+
+.catogorie1{
+    background: #eee;
+    width: 100%;
+    height: 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.catogorie2{
+    background: #eee;
+    width: 100%;
+    height: 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.catogorie3{
+    background: #eee;
+    width: 100%;
+    height: 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+
+.maincard{
+    width: 75%;
+    height: 60rem;  
+    margin-left: 15rem;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+    background: rebeccapurple;
+}
+
+.card{
+    height: 25rem;
+    width: 20rem;
+    border: 1px solid lightgray;
+    margin-top: 3.5rem;
+    margin-left: 1.2rem;
+}
+
+.boxsmall{
+    background: red;
+    width: 100%;
+    height: 13rem;
+}
+
+.boxlarge{
+    background: green;
+    width: 100%;
+    height: 12rem;
+}
+
+.card1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.card2{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.card3{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.card4{
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.card5{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.card6{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.card7{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.card8{
+    grid-row: 2;
+    grid-column: 4;
+}
+
+
