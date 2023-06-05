@@ -107,11 +107,51 @@ img{
 
 footer{
     width: 100%;
-    height: 300px;
+    height: 30rem;
     background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
 }
 
-a{
+.footer_section1{
+    width: 40%;
+    height: 90%;
+    background: red;
+}
+
+
+
+.footer_section2{
+    width: 40%;
+    height: 90%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer_section2_blokken{
+    width: 40%;
+    height: 95%;
+    padding: 1rem;
+    color: #eee;
+    font-weight: 100;
+}
+
+
+.footer_section2_blokken a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer_section2_blokken a:visited{
+    color: white;
+}
+
+header a{
     text-decoration: none;
     color: black;
 }
@@ -374,6 +414,11 @@ a:visited{
 .gafefunctieimage{
     width: 60%;
     height: 90%;
+    transition:0.3s transform;
+}
+
+.gafefunctieimage:hover{
+    transform:scale(1.05);
 }
 
 .reviews{
@@ -382,11 +427,23 @@ a:visited{
     background: #eee;
     margin-left: 4.5rem;
     margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
+.reviewsblokken{
+    width: 30%;
+    height: 80%;
+    background: white;
+    padding: 1rem;
+}
 
-
-
+.reviewsblokken img{
+    border-radius: 50%;
+    width: 30%;
+}
 
 
 .catogorie{
