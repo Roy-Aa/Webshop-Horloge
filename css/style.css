@@ -153,7 +153,6 @@ footer{
     font-weight: 100;
 }
 
-
 .footer_section2_blokken a{
     color: white;
     text-decoration: none;
@@ -220,7 +219,6 @@ a:visited{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .photo1{
@@ -363,6 +361,7 @@ a:visited{
 .vierblokken{
     width: 100%;
     height: 33rem;
+    flex-wrap: wrap;
 }
 
 .blokdeel1{
@@ -656,10 +655,221 @@ a:visited{
     align-items: center;
 }
 
-.winkelwagen_textmid{
-}
-
 .winkelwagen_img{
     width: 15%;
     height: 100%;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    header{
+        width: 60vh;
+    }
+
+    .headerlogo{
+        width: 10rem;
+    }
+
+    .boxheader3{
+        margin-right: 0rem;
+    }
+
+
+
+    /* INDEX */
+
+    .button-image{
+        display: none;
+    }
+
+    .container{
+        display: none;
+    }
+
+    .ghbutton{
+        position: relative;
+        margin-left: 8rem;
+    }
+
+
+
+
+    .ghfotoframe{
+        display: none;
+    }
+
+    .ghtextbox{
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    .ghtextbox2{
+        margin-left: 8rem;
+    }
+
+
+
+
+
+    .vierblokken{
+        width: 100vh;
+        margin-top: -8rem;
+        height: 40rem;
+        margin-left: -2.4rem;
+    }
+
+    .blokdeel1{
+        flex-direction: column;
+    }
+
+    .blokdeel-1{
+        flex-wrap: wrap;
+        width: 23rem;
+        height: 30rem;
+        margin-left: 0rem;
+    }
+
+    .blokdeel-2{
+        flex-wrap: wrap;
+        width: 23rem;
+        height: 30rem;
+        margin-left: 0rem;
+    }
+
+    .blokdeel-3{
+        flex-wrap: wrap;
+        width: 23rem;
+        height: 30rem;
+        margin-left: 0rem;
+    }
+
+    .blokdeel-4{
+        flex-wrap: wrap;
+        width: 23rem;
+        height: 30rem;
+        margin-left: 0rem;
+    }
+
+    .blokimage{
+        width: 5rem;
+    }
+
+
+
+
+    /* Gafe functie*/
+
+    .gafefunctie{
+        width: 100vh;
+        display: block;
+        height: 50rem;
+    }
+
+    .gafefunctie--blokken{
+        font-size: 1rem;
+        padding: 1rem;
+        height: 23rem;
+        width: 20rem;
+        margin-bottom: 1rem;
+        margin-left: 4rem;
+    }
+
+    .gafefunctie--blokken2{
+        width: 20rem;
+        height: 23rem;
+        margin-left: 4rem;
+    }
+
+    .gafefunctieimage{
+        width: 100%;
+        height: 100%;
+        padding: 3rem;
+    }
+
+
+    /* 4 rolex */
+
+    .vierfotos{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+    }
+
+    .foto1{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .foto2{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .foto3{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .foto4{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    /* Reviews */
+
+    .reviews{
+        height: 80rem;
+        margin-left: 1rem;
+    }
+
+    .reviewsblokken{
+        height: 20rem;
+        width: 20rem;
+    }
+
+    /* Footer */
+
+    footer{
+        width: 100vh;
+        height: 50rem;
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .footer_section1{
+        font-size: 1rem;
+        height: 20rem;
+        width: 30rem;
+    }
+
+    .footer_section2{
+        height: 40rem;
+        margin-left: 4rem;
+        gap: 5rem;
+    }
+
+    /* PRODUCTPAGINA 1 */
+
+    .maincard{
+        margin-left: 2.5rem;
+        height: 400rem;
+    }
+
+
+
+
+    /* WINKELWAGEN.HTML */
+
+    .winkelwagen_section{
+        margin-left: 3rem;
+    }
+
+    .winkelwagen_blokjes{
+        padding-left: 1rem;
+    }
+
+    .winkelwagen_img{
+        width: 10rem;
+    }
 }
