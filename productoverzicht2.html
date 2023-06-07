@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js"></script>
+    <script src="js/filter.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
@@ -25,25 +25,64 @@
         </div>
     </header>
     <main>
+        <section class="filter--dropdown">
+            <div class="dropdown">
+                <button class="dropbtn">Prijs ↓ </button>
+                <div class="dropdown-content">
+                    <section class="catogorie">
+                        <div>
+                            <figure class="catogorie1"><input id="checkbox-gold" class="filter" type="checkbox">10-100</figure>
+                        </div>
+                        <div>
+                            <figure class="catogorie2"><input id="checkbox-silver" class="filter" type="checkbox">500-1000</figure>
+                        </div>
+                        <div>
+                            <figure class="catogorie3"><input id="checkbox-leather" class="filter" type="checkbox">1000-10000</figure>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <article class="maincard">
+                <figure class="card" data-category="gold">
+                    <img src="img/rolex2.webp" alt="">
+                </figure>
+                <figure class="card" data-category="gold">
+                    <img src="img/rolex4.webp" alt="">
+                </figure>
+                <figure class="card" data-category="gold">
+                    <img src="img/gouden horloge 3.webp" alt="">
+                </figure>
+                <figure class="card" data-category="gold">
+                    <img src="img/gouden horloge 4.webp" alt="">
+                </figure>
+                <figure class="card" data-category="silver">
+                    <img src="img/rolex1.webp" alt="">
+                </figure>
+                <figure class="card" data-category="silver">
+                    <img src="img/rolex3.webp" alt="">
+                </figure>
+                <figure class="card" data-category="silver">
+                    <img src="img/silveren-horloge-3.webp" alt="">
+                </figure>
+                <figure class="card" data-category="silver">
+                    <img src="img/silveren-horloge-4.webp" alt="">
+                </figure>
+                <figure class="card" data-category="leather">
+                    <img src="img/leren horloge 1.webp" alt="">
+                </figure>
+                <figure class="card" data-category="leather">
+                    <img src="img/leren horloge 2.webp" alt="">
+                </figure>
+                <figure class="card" data-category="leather">
+                    <img src="img/leren horloge 3.webp" alt="">
+                </figure>
+                <figure class="card" data-category="leather">
+                    <img src="img/leren horloge 4.webp" alt="">
+                </figure>
+            </article>
 
 
 

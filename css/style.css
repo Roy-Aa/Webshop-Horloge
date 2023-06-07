@@ -122,6 +122,10 @@ footer{
     color: white;
 }
 
+.footer_section1_copyright{
+    color: white;
+}
+
 .footer_font{
     font-weight: 100;
 }
@@ -632,7 +636,6 @@ a:visited{
 
 
 
-
 .winkelwagen_section{
     width: 80%;
     height: 70rem;
@@ -660,6 +663,60 @@ a:visited{
     height: 100%;
 }
 
+.dropbtn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+    color: #554c4c;
+    font-size: 2.4rem;
+    width: 15rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #554c4c;;
+    border-radius:3rem;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top:6rem;
+  }
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0rem 0.8rem 2rem 0rem rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+  }
+
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+  .filter--dorpdown{
+    width: 30%;
+    height: 7rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
 @media screen and (max-width: 450px) {
 
