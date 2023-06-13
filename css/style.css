@@ -775,13 +775,14 @@ a:visited{
   }
 
   .invidueel_section_left_img{
-    height: 80%;
-    width: 80%;
+    height: 110%;
+    width: 90%;
     transition:0.3s transform;
+    transform: translateY(-2rem)
   }
 
   .invidueel_section_left_img:hover{
-    transform:scale(1.10);
+    transform:  scale(1.10);
   }
 
   .invidueel_section_right{
@@ -844,7 +845,6 @@ a:visited{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding-left: 4rem;
     padding-right: 4rem;
   }
 
@@ -856,6 +856,7 @@ a:visited{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
   }
 
   .invidueel_section_right_block_button{
