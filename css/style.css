@@ -130,6 +130,7 @@ img{
     height: 3rem;
     background: white;
     border: 1px solid black;
+    color: black;
 }
 
 footer{
@@ -299,6 +300,7 @@ a:visited{
     height: 3rem;
     background: white;
     border: 1px solid black;
+    color: black;
 }
 
 
@@ -883,6 +885,11 @@ a:visited{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    color: black;
+  }
+
+  .invidueel_section_right_block_winkelwagen_cart{
+    color: black;
   }
 
   .invidueel_section_right_block_button{
